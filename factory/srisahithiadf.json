@@ -1,0 +1,17 @@
+{
+	"name": "srisahithiadf",
+	"properties": {
+		"globalParameters": {
+			"GLWaittime": {
+				"type": "int",
+				"value": 10
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "337ed0f7-c619-42d5-aa2f-8f73c1f38bf3",
+		"tenantId": "cce43318-4ce6-485c-b5e9-00b2bf5bf58c"
+	}
+}

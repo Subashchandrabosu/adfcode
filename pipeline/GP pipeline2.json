@@ -1,0 +1,22 @@
+{
+	"name": "GP pipeline2",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": {
+						"value": "@pipeline().globalParameters.GLWaittime",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-12-26T15:09:20Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
